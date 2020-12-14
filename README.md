@@ -39,6 +39,6 @@ To calculate colorfulness using [Hasler et al's measurement](https://www.researc
 
 ### Acknowledgement
 
-The final code implemented here are heavily based on the implementation from other repositories:
+The final code implemented here are for research purposes only, and heavily based on the implementation from other repositories:
 1. The original deoldify repository (Antic 2019) [here](https://github.com/jantic/DeOldify), and
 2. The pre-colorization step are from Wan et al's joint restoration (2020) [here](https://github.com/microsoft/Bringing-Old-Photos-Back-to-Life/tree/master/Global)
