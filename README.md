@@ -13,11 +13,11 @@ pip install -r requirements.txt
 
 2. Download all files from [here](https://drive.google.com/drive/folders/1nT7nfzqYbrffRwJWhdGFsGjH_wi6w-Pd?usp=sharing) to your local computer
 
-3. Move all .pth files to `./models` directory
+3. Move both `.pth` files to `./models` directory
 
-4. Move FaceEnhancement-checkpoints.zip to `./Face_Enhancement` directory, then extract it
+4. Move `FaceEnhancement-checkpoints.zip` to `./Face_Enhancement` directory, then extract it
 
-5. Move Global-checkpoints.zip to `./Global directory`, then extract it
+5. Move `Global-checkpoints.zip` to `./Global` directory, then extract it
 
 ### Prepare dataset
 1. Legacy-Large dataset can be downloaded from [here](https://drive.google.com/drive/folders/1nT7nfzqYbrffRwJWhdGFsGjH_wi6w-Pd?usp=sharing), at `Dataset` folder.
