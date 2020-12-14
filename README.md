@@ -21,7 +21,7 @@ pip install -r requirements.txt
 
 ### Colorization
 1. Training dataset and test dataset (legacy images) can be prepared by:
-    - Download test dataset with image_scraper.ipynb
+    - Download test dataset with `image_scraper.ipynb`
     - Download ImageNet dataset from [here](http://image-net.org/download-images) for training
     - Run preprocess.ipynb to resize test images and create BW images
    
