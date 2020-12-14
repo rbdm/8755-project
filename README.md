@@ -28,9 +28,9 @@ pip install -r requirements.txt
     - Run `preprocess.ipynb` to resize test images and create BW images
    
 ### Colorization
-1. Best results for running and fine tuning DeOldify colorization model can be viewed by running inference using `Colorizer_GANFineTune_bestmodel.pth`. Example inference is shown in `colorize_test.ipynb`
+1. Best results for training and fine tuning can be viewed by running inference using `Colorizer_GANFineTune_bestmodel.pth`. Example inference is shown in `colorize_test.ipynb`
 
-2. Results for MSGAN training can be viewed by running the `MSGAN_training.ipynb` file
+2. Results for Mode-Seeking GAN training can be viewed by running the `MSGAN_training.ipynb` file
 
 ### Joint with other restoration
 The adopted final pipeline consists of preprocessing using Wan et al's (2020) method from [here](https://github.com/microsoft/Bringing-Old-Photos-Back-to-Life/tree/master/Global) and feeding the result to the colorization model.
