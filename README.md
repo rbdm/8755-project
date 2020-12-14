@@ -35,10 +35,10 @@ The adopted final pipeline consists of preprocessing using Wan et al's (2020) me
 To test it, run `joint_restoration_test.ipynb`
 
 ### Calculate colorfulness
-To calculate colorfulness using [Hasler et al's measurement](https://www.researchgate.net/publication/243135534_Measuring_Colourfulness_in_Natural_Images), run calculate_colorfulness.ipynb
+To calculate colorfulness using [Hasler et al's measurement](https://www.researchgate.net/publication/243135534_Measuring_Colourfulness_in_Natural_Images), run `calculate_colorfulness.ipynb`
 
 ### Acknowledgement
 
 The final code implemented here are heavily based on the implementation from other repositories:
-1. The original deoldify repository [here](https://github.com/jantic/DeOldify), and
-2. The pre-colorization step are from Wan et al's joint restoration [here](https://github.com/microsoft/Bringing-Old-Photos-Back-to-Life/tree/master/Global)
+1. The original deoldify repository (Antic 2019) [here](https://github.com/jantic/DeOldify), and
+2. The pre-colorization step are from Wan et al's joint restoration (2020) [here](https://github.com/microsoft/Bringing-Old-Photos-Back-to-Life/tree/master/Global)
