@@ -38,6 +38,4 @@ To test it, run 'joint_restoration_test.ipynb'
 
 The final code implemented here are heavily based on the implementation from:
 1. The original deoldify repository [here](https://github.com/jantic/DeOldify), and
-2. Wan et al's joint restoration [here](https://github.com/microsoft/Bringing-Old-Photos-Back-to-Life/tree/master/Global)# 8755-project
-# 8755-project
-# 8755-project
+2. Wan et al's joint restoration [here](https://github.com/microsoft/Bringing-Old-Photos-Back-to-Life/tree/master/Global)
