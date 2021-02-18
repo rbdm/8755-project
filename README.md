@@ -7,19 +7,20 @@ While published image restoration models are usually benchmarked on datasets wit
 
 ### Results Summary
 1. Attempt to induce multimodality in the produced colors, by implementing [this paper](https://arxiv.org/abs/1903.05628) on mode-seeking GAN regularization (Mao et al. 2019):
-> [[https://github.com/rbdm/8755-project/blob/main/wiki/MSGAN_b.png|alt=result1|width=400px]]
+
+> <img src="https://github.com/rbdm/8755-project/blob/main/wiki/MSGAN_b.png" width=50%>
 
 2. Attempt to enhance the colorfulness of known robust colorization training (DeOldify) by fine-tuning the GAN training:
 
-> [[https://github.com/rbdm/8755-project/blob/main/wiki/CL.png|alt=result2|width=500px]]
+> <img src="https://github.com/rbdm/8755-project/blob/main/wiki/CL.png" width=50%>
 
 with highest colorfulness score:
 
-> [[https://github.com/rbdm/8755-project/blob/main/wiki/colorfulness.png|alt=result2|width=500px]]
+> <img src="https://github.com/rbdm/8755-project/blob/main/wiki/colorfulness.png" width=50%>
 
 3. We then implement some of the latest papers on image restoration with state-of-the-art results, choose the best performing one, and implement a pipeline for end-to-end restoration:
 
-> [[https://github.com/rbdm/8755-project/blob/main/wiki/final.png|alt=result3|width=500px]]
+> <img src="https://github.com/rbdm/8755-project/blob/main/wiki/final.png" width=50%>
 
 ### Results Summary
 In summary, our fine tuning result (2) is able to produce more colorful result than baseline model and the latest image colorization models, both qualitatively and quantitatively. Our multimodal colorization (1) is able to produce interesting and diverse colors, but we have yet to be able to fine-tune the model to produce realistic result. Our adopted end-to-end pipeline (3) shows the capability to generalize to varying restoration requirements.
