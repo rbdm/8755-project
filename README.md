@@ -5,7 +5,7 @@ This repo is the artefact of the project _"Experiments on Restoring Color and Vi
 ### Introduction
 With a multitude of applications, deep learning-automated image restoration tasks enjoy rapid and numerous research. For experimental purposes, one interesting problem domain lies in the restoration of random old and degraded photos, which are more difficult to generalize due to the possible variation in the degradation type and strength, and the possibility of compounding degradations (such as noise, scratch/torn, occlusion, low-resolution, etc).
 
-While published image restoration models are usually benchmarked on datasets with similar degradation type, we will perform experiments on real old and degraded black-and-white photos scraped from the internet (which are then colorized and restored).
+While published image restoration models are usually benchmarked on datasets with similar degradation type, we performed experiments on randomly scraped dataset of old and degraded black-and-white photos (which are then colorized and restored).
 
 ### Results Summary
 1. Attempt to induce multimodality in the produced colors, by implementing [this paper](https://arxiv.org/abs/1903.05628) on mode-seeking GAN regularization (Mao et al. 2019):
