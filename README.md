@@ -1,6 +1,6 @@
 Thank you for visiting this repository
 
-This repo is the artefact of the project _"Experiments on Restoring Color and Visual Fidelity to Legacy Photographs"_, undertaken by me and supervised by Dr.Salman Khan. Please contact me or Dr.Salman if you need the full paper.
+This repo is the artefact of research project _"Experiments on Restoring Color and Visual Fidelity to Legacy Photographs"_, undertaken by me and supervised by Dr.Salman Khan. Please contact me or Dr.Salman if you need the full paper.
 
 ### Introduction
 With a multitude of applications, there are numerous researches on deep learning-automated image restoration. For experimental purposes, restoration of random old and degraded photos is an interesting problem domain, since they are more difficult to generalize due to the possible variation in the degradation type and strength, and the possibility of compounding degradations (such as noise, scratch/torn, occlusion, low-resolution, etc).
